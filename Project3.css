@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+    overflow: hidden;
+}
+
+.up{
+    display: flex;
+}
+
+nav{
+    height: 100px;
+    width: 101%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+h4{
+    height: 100px;
+    width: 500px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.blocks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 100px;
+}
+
+.block1{
+    background-color: rgb(29, 29, 88);
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.block3{
+    background-color: #e9e6e6;
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.text{
+    position: relative;
+    padding: 50px 50px 50px 515px;
+    font-size: 30px;
+}
+
+.numbers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20px;
+}
+
+.bottom{
+    background-color: #eee;
+}
+
+.image2{
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.image1{
+    height: 110px;
+    width: 110px;
+    padding: 40px 40px 15px 15px;
+}
+
+.text2{
+    font-size: 35px;
+    height: 100px;
+    width: 400px;
+    padding-left: 10px;
+}
+
+span{
+    color:aliceblue;
+}
+
+.m1{
+    color: rgb(180, 175, 175);
+}
+
+.toggle{
+    height: 20px;
+    width: 40px;
+    border-radius: 50px;
+    position: relative;
+    top: 35%;
+    left: 5%;
+}
+
+#text{
+    display: flex;
+    justify-content: start;
+    padding-top: 112px;
+    padding-left: 70px;
+    font-size: 23px;
+    color: rgb(180, 175, 175);
+}
+
+#t1{
+    position: relative;
+    top: 5%;
+    left: 6%;
+    font-size: 50px;
+}
+
+#t2{
+    position: relative;
+    top: 5%;
+    left: 6%;
+}
+
+#t3
+{
+    position: relative;
+    top: 6%;
+    left: 6%;
+    height: 100px;
+    width: 300px;
+}
+
+.level{
+    display: grid;
+    grid-template-columns: 80px auto 70px;
+    align-items: center;
+    gap: 15px;
+    font-family: sans-serif;
+    margin-bottom: 12px;
+    position: relative;
+    top: 15%;
+    left: 6%;
+}
+
+.label{
+    color: black;
+    font-size: 14px;
+}
+
+.dots{
+    display: flex;
+    gap: 6px;
+}
+
+.dot{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #2db6f5;
+}
+
+.score{
+    color: black;
+    font-size: 14px;
+    height: 40px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
